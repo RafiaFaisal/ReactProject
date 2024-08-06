@@ -11,11 +11,11 @@ A React Native application for listing products with detailed views, implemented
 
 ## API
 
-  - **Product Listing (GET)**
-    - [https://fakestoreapi.com/products](https://fakestoreapi.com/products)
+- **Product Listing (GET)**
+  - [https://fakestoreapi.com/products](https://fakestoreapi.com/products)
 
-  - **Product Details (GET)**
-    - [https://fakestoreapi.com/products/1](https://fakestoreapi.com/products/1)
+- **Product Details (GET)**
+  - [https://fakestoreapi.com/products/1](https://fakestoreapi.com/products/1)
 
 ## Main Libraries Used
 
@@ -29,7 +29,6 @@ A React Native application for listing products with detailed views, implemented
 
 ## Demo
 
-[![Product Listing App Demo](https://drive.google.com/file/d/1b0RSjKTCHiJQV6XOE8OXQKVDZI2Fvk21/view?usp=drive_link)
+[![Product Listing App Demo](https://drive.google.com/uc?export=view&id=1b0RSjKTCHiJQV6XOE8OXQKVDZI2Fvk21)](https://drive.google.com/file/d/1b0RSjKTCHiJQV6XOE8OXQKVDZI2Fvk21/view?usp=drive_link)
 
 Click the image above to watch the demo video.
-
