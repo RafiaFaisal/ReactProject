@@ -29,7 +29,7 @@ A React Native application for listing products with detailed views, implemented
 
 ## Demo
 
-[![Product Listing App Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+[![Product Listing App Demo](https://drive.google.com/file/d/1b0RSjKTCHiJQV6XOE8OXQKVDZI2Fvk21/view?usp=drive_link)
 
 Click the image above to watch the demo video.
 
