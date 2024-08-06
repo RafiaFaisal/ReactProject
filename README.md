@@ -24,8 +24,6 @@ A React Native application for listing products with detailed views, implemented
 - **Redux Thunk**: For handling asynchronous actions.
 - **React Navigation**: For navigation between screens.
 - **React Native Vector Icons**: For icons.
-- **Jest**: For testing.
-- **React Native Testing Library**: For testing React Native components.
 
 ## Demo
 
