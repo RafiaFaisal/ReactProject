@@ -22,7 +22,6 @@ const ProductDetailContainer: React.FC<Props> = ({ route }) => {
   const dispatch = useDispatch();
   const { product, loading, error } = useSelector((state: RootState) => state.productDetail);
 
- 
   useEffect(() => {
     dispatch(fetchProductDetail(route.params.id) as any); 
   }, [dispatch, route.params.id]);

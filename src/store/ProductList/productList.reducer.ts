@@ -2,13 +2,13 @@ import { createSlice } from '@reduxjs/toolkit';
 import { fetchProducts } from './productList.thunks';
 import { Product } from '../../components/ProductList/ProductList.types';
 
-interface ProductListState {
+export interface ProductListState {
   products: Product[];
   loading: boolean;
   error: string | null;
 }
 
-const initialState: ProductListState = {
+export const initialState: ProductListState = {
   products: [],
   loading: false,
   error: null,
