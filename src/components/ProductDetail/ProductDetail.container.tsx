@@ -7,13 +7,16 @@ import { fetchProductDetail } from '../../store/ProductDetail/productDetail.thun
 import { RootState } from '../../store/store';
 import ProductDetailView from './ProductDetail.view';
 
+
 type ProductDetailScreenNavigationProp = StackNavigationProp<RootStackParamList, 'ProductDetail'>;
 type ProductDetailScreenRouteProp = RouteProp<RootStackParamList, 'ProductDetail'>;
+
 
 type Props = {
   navigation: ProductDetailScreenNavigationProp;
   route: ProductDetailScreenRouteProp;
 };
+
 
 const ProductDetailContainer: React.FC<Props> = ({ route }) => {
   const dispatch = useDispatch();
@@ -23,6 +26,7 @@ const ProductDetailContainer: React.FC<Props> = ({ route }) => {
     dispatch(fetchProductDetail(route.params.id) as any); 
   }, [dispatch, route.params.id]);
 
+ 
   return <ProductDetailView product={product} loading={loading} error={error} />;
 };
 

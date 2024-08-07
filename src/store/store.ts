@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
-import productListReducer from './ProductList/productList.reducer';  // Correct path
-import productDetailReducer from './ProductDetail/productDetail.reducer';  // Correct path
+import productListReducer from './ProductList/productList.reducer'; 
+import productDetailReducer from './ProductDetail/productDetail.reducer';  
 
 const store = configureStore({
   reducer: {

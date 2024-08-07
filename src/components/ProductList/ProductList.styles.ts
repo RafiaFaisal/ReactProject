@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
   textContainer: {
     flex: 1,
     marginLeft: 15,
-    position: 'relative', // Added to ensure the button can be absolutely positioned within this container
+    position: 'relative', 
   },
   title: {
     fontWeight: 'bold',
